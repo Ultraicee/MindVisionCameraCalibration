@@ -21,8 +21,8 @@
 | &boxv;&nbsp; &boxvr;&nbsp;  processStereoParams.m | 处理导出到MATLAB工作区的stereoParams并输出；
 | &boxv;&nbsp; &boxvr;&nbsp;  split_picture.py | 分割双目图像
 | &boxv;&nbsp; &boxur;&nbsp;  writeYaml.py | 写入配置文件
-| &boxvr;&nbsp; Src | 
-| &boxv;&nbsp; &boxvr;&nbsp;  L | 默认分割后左相机保存位置
-| &boxv;&nbsp; &boxvr;&nbsp;  R | 默认分割后右相机保存位置
-| &boxv;&nbsp; &boxvr;&nbsp;  Picture | 默认采集到的图片读取位置
-| &boxr;&nbsp; &boxur;&nbsp;  writeYaml.py | 写入配置文件
+| &boxur;&nbsp; Src | 
+| &ensp;&ensp; &boxvr;&nbsp;  L | 默认分割后左相机保存位置
+| &ensp;&ensp; &boxvr;&nbsp;  R | 默认分割后右相机保存位置
+| &ensp;&ensp; &boxvr;&nbsp;  Picture | 默认采集到的图片读取位置
+| &ensp;&ensp; &boxur;&nbsp;  writeYaml.py | 写入配置文件
