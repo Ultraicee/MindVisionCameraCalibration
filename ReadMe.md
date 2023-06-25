@@ -8,7 +8,7 @@
 - step5: 运行脚本`writeYaml.py`，生成新的相机配置文件`camera_paras.yaml`
 
 ### File Description
-| File name | &description;
+| File name | Description
 | :--- | :----------
 | MindVisionCameraCalibration
 | &boxvr;&nbsp; ReadMe.md | 
