@@ -26,3 +26,9 @@
 | &ensp;&ensp; &boxvr;&nbsp;  R | 默认分割后右相机保存位置
 | &ensp;&ensp; &boxvr;&nbsp;  Picture | 默认采集到的图片读取位置
 | &ensp;&ensp; &boxur;&nbsp;  writeYaml.py | 写入配置文件
+
+
+
+
+
+push test
