@@ -29,18 +29,21 @@
 
 ### 文件描述
 
-├── **Output**
+```
+├── Output
 │  ├── CameraParams.mat
 │  ├── calibrationSession.mat
 │  └── camera_paras.yaml
 ├── ReadMe.md
-├── **Script**
+├── Script
 │  ├── file_input_output.py
 │  ├── processStereoParams.m
 │  ├── split_picture.py
 │  └── writeYaml.py
-└── **Src**
-  ├── **Pictures**
+└── Src
+  ├── Pictures
+  └──writeYaml.py
+```
 
 
 
