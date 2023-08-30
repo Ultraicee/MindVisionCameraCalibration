@@ -27,6 +27,21 @@
 | &ensp;&ensp; &boxvr;&nbsp;  Picture | 默认采集到的图片读取位置
 | &ensp;&ensp; &boxur;&nbsp;  writeYaml.py | 写入配置文件
 
+### 文件描述
+
+├── **Output**
+│  ├── CameraParams.mat
+│  ├── calibrationSession.mat
+│  └── camera_paras.yaml
+├── ReadMe.md
+├── **Script**
+│  ├── file_input_output.py
+│  ├── processStereoParams.m
+│  ├── split_picture.py
+│  └── writeYaml.py
+└── **Src**
+  ├── **Pictures**
+
 
 
 
