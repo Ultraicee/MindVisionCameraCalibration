@@ -3,10 +3,11 @@
 ## The Whole Process of Stereo Camera Calibration 
 
 ### devices：
-mindvision工业黑白相机，信号为MV-MSU130GM2-T
+mindvision工业黑白相机，型号为MV-MSU130GM2-T
 
 ### why？
 `yaml`配置文件支持多种不同语言读取数据，为了利用其方便、易读、快速的性质，编写脚本存放在此仓库，对matlab下双目相机标定的保存数据（mat文件）进行脚本式转化。
+Ans: 在双目标定工具箱里输出的只有.mat文件，所以需要一个脚本读取其中数据，考虑到最后用的是.yaml文件读取相机参数，故完成此步骤的转换。
 
 ### QS
 - step1: 使用mindvision演示程序采集标定图片，设置图片大小(建议为1280x2560），保存在Pictures文件夹；
@@ -42,6 +43,7 @@ mindvision工业黑白相机，信号为MV-MSU130GM2-T
 
 ### 特别说明
 在生成当中的`yaml`文件当中，没有单独列出基线长度，基线长度为外参平移向量当中的第一个元素（取绝对值）
+Ans：未使用到该参数，仅使用到内外侧、双目相机原点之间的旋转平移矩阵，畸变系数，基础矩阵F。
 
 
 
