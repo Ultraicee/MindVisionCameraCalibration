@@ -10,7 +10,7 @@ mindvision工业黑白相机，型号为MV-MSU130GM2-T
 Ans: 在双目标定工具箱里输出的只有.mat文件，所以需要一个脚本读取其中数据，考虑到最后用的是.yaml文件读取相机参数，故完成此步骤的转换。
 
 ### QS
-- step1: 使用mindvision演示程序采集标定图片，设置图片大小(建议为1280x2560），保存在Pictures文件夹；
+- step1: 使用mindvision演示程序采集标定图片，设置图片大小(一般来说无需设置,相机拍下多少就是多少,设备的图像分辨率默认为960x2560），保存在Pictures文件夹；
 - step2: 运行脚本`split_pictures.py`，完成图片切割；
 - step3: 使用MATLAB相机标定工具箱（Stereo Camera Calibrator，棋盘格大小为35mm）；如图设置：
 ![img.png](Src/setupParams.png)
